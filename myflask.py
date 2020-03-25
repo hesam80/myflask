@@ -1,6 +1,8 @@
 
 #Import dependencies
 from flask import Flask
+from factoriel import factoriel
+
 
 #Create instance of Flask App
 app = Flask(__name__)
@@ -9,8 +11,14 @@ app = Flask(__name__)
 @app.route("/")
 
 #Content
+
+
+
 def home():
-    return("Home Page")
+    return("hello world ")
+
+
+
 
 #Running and Controlling the script
 if (__name__ =="__main__"):
