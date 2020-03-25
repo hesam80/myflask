@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 #Content
 
-
+nek= 3
 
 def home():
     return("hello world ")
