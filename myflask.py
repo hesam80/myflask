@@ -15,7 +15,10 @@ app = Flask(__name__)
 def home():
     return("hello world ")
 
+@app.route("/result")
 
+def inresult():
+	return("result")
 
 
 #Running and Controlling the script
