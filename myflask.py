@@ -18,7 +18,10 @@ def home():
 @app.route("/result")
 
 def inresult():
-	return("result")
+	
+	return ("result")
+
+
 
 
 #Running and Controlling the script
