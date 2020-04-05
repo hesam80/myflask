@@ -3,7 +3,7 @@ from factoriel import factoriel
 print("Content-Type: text/html\n charset:utf-8\n")
 def hello(request):
     return HttpResponse("Hello world")
-    print("content-type: text/html\n\n" )
+    print("Content-Type: text/html\n charset:utf-8\n")
 
 
 
