@@ -133,3 +133,7 @@ dmypy.json
 *.db
 *.db3
 *.txt
+#All Databases and xlsx files
+*xlsx
+*db
+*db3
